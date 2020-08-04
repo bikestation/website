@@ -1,0 +1,73 @@
+.header {
+    max-width: 64rem;
+    margin: 0 auto;
+    height: 10rem;
+    position: relative;
+    margin-bottom: 4rem;
+
+    display: grid;
+    grid-template-columns: auto 140px auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "links logo contact";
+    grid-gap: 1rem;
+
+    color: #fff;
+    a {
+      color: #fff;
+    }
+
+    &:after {
+        content: "";
+        height: 2rem;
+        width: 100vw;
+        background: black;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        position: absolute;
+        z-index: 1;
+    }
+
+    .links {
+      grid-area: links;
+      text-align: right;
+      padding: 0;
+      list-style-type: none;
+      align-self: end;
+
+      li {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .logo {
+      grid-area: logo;
+      background-image: linear-gradient(to bottom, #ffe400 0%,#ffc000 100%);
+    }
+
+    .contact {
+      grid-area: contact;
+      align-self: end;
+    }
+
+    .links,
+    .logo,
+    .contact {
+      z-index: 2;
+      position: relative;
+      display: block;
+      margin: 0;
+    }
+
+    .links,
+    .contact {
+      padding-bottom: .6rem;
+    }
+}
+
+
+.logo-image {
+  margin: 1rem;
+}

@@ -1,33 +1,51 @@
-import { Link } from "gatsby"
+
+import { Link, useStaticQuery, graphql } from "gatsby"
+
 import PropTypes from "prop-types"
 import React from "react"
+import Img from "gatsby-image"
+
+import './header.scss'
+
+const Logo = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      placeholderImage: file(relativePath: { eq: "logo.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
+
+  return <Img
+    className="logo-image"
+    fluid={data.placeholderImage.childImageSharp.fluid}
+  />
+}
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+  <header className="header">
+      <h1 className="logo">
         <Link
           to="/"
           style={{
             color: `white`,
             textDecoration: `none`,
           }}
+          title={siteTitle}
         >
-          {siteTitle}
+          <Logo />
         </Link>
       </h1>
-    </div>
+      <ul className="links">
+        <li>links</li>
+      </ul>
+      <p className="contact">
+        phone
+      </p>
   </header>
 )
 

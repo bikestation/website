@@ -30,6 +30,17 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Roboto`,
+            variants: [`300`,`400`,`500`],
+          }
+        ],
+      },
+    }
     /* {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
