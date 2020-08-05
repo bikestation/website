@@ -1,7 +1,7 @@
 .header {
     max-width: 64rem;
     margin: 0 auto;
-    height: 10rem;
+    height: 13rem;
     position: relative;
     margin-bottom: 4rem;
 
@@ -19,9 +19,9 @@
 
     &:after {
         content: "";
-        height: 2rem;
+        height: 50px;
         width: 100vw;
-        background: black;
+        background: #090d11;
         left: 50%;
         bottom: 0;
         transform: translateX(-50%);
@@ -38,7 +38,33 @@
 
       li {
         margin: 0;
-        padding: 0;
+        padding: 0 0 0 1rem;
+        display: inline-block;
+
+      }
+
+      .facebook,
+      .messenger {
+        display: inline-block;
+
+        svg {
+          height: 1.5rem;
+        }
+        path {
+          fill: #898f9c;
+        }
+
+        &:hover {
+          path {
+            fill: lighten($color: #898f9c, $amount: 25%)
+          }
+        }
+      }
+
+      .messenger {
+        svg {
+          height: 1.6rem;
+        }
       }
     }
 
@@ -62,9 +88,12 @@
       margin: 0;
     }
 
-    .links,
     .contact {
-      padding-bottom: .6rem;
+      padding-bottom: 1.8rem;
+    }
+
+    .links {
+      padding-bottom: 1.4rem;
     }
 }
 
