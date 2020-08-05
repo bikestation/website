@@ -41,10 +41,11 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <ul className="links">
-        <li>links</li>
+        <li><a href="https://www.facebook.com/thebikestationbudapest/" tagret="_blank">Facebook</a></li>
+        <li><a href="https://www.messenger.com/t/thebikestationbudapest" tagret="_blank">Messenger</a></li>
       </ul>
       <p className="contact">
-        phone
+      +36 30 347 7766 
       </p>
   </header>
 )

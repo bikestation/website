@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.scss"
+import "../pages/bike.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -37,7 +38,7 @@ const Layout = ({ children }) => {
         <footer>
           © {new Date().getFullYear()}, The Bike Station Budapest. | Image credit: 
           {` `}
-          <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.specialized.com%2FUS%2Fen%2Fstories%2Fmixtape&h=AT2YicNEeduc3OG9QYOsk9Xv4eOB-n6zRAJDLSDHKFmvCAvR1s51mMKogwfLYsy9l6JVj3tIxHeKappuymQl3WPpQ6peOIMCKqMBmJyRBH3u4vSwYjOqzGesKUnfLzdbbESHpxul22I" target="blank">Specialized</a>
+          <a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.specialized.com%2FUS%2Fen%2Fstories%2Fmixtape&h=AT2YicNEeduc3OG9QYOsk9Xv4eOB-n6zRAJDLSDHKFmvCAvR1s51mMKogwfLYsy9l6JVj3tIxHeKappuymQl3WPpQ6peOIMCKqMBmJyRBH3u4vSwYjOqzGesKUnfLzdbbESHpxul22I" class="a" target="_blank">Specialized</a>
         </footer>
       </div>
     </>

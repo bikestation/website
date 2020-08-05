@@ -1,0 +1,46 @@
+h2 {
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-variant-caps: all-small-caps;
+    font-weight: normal;
+}
+h2.services {
+    color: #d60680;
+}
+h2.pricelist {
+    color: #0fd3ba;
+}
+h3 {
+    font-size: 1.25rem;
+    color: #04a493;
+}
+ul.list {
+    list-style-type: square;
+}
+p.servicestext {
+    color: #acb4c4;
+}
+p.pricelisttext {
+    color: #bbb9af;
+    font-size: 0.85rem;
+}
+table.tabletext {
+    td {
+        color: #bbb9af;
+    }
+}
+td.price {
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+}
+footer a {
+    color: #b2c4b3;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
