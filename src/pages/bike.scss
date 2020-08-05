@@ -36,15 +36,3 @@ table.tabletext {
 td.price {
     font-weight: bold;
 }
-footer {
-    text-align: center;
-}
-footer a {
-    color: #b2c4b3;
-    font-weight: bold;
-    text-decoration: none;
-
-    &:hover {
-        text-decoration: underline;
-    }
-}

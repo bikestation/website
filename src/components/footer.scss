@@ -1,0 +1,27 @@
+footer {
+  text-align: center;
+  position: relative;
+
+  a {
+    color: #b2c4b3;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+  }
+
+  p {
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    top: calc(100vw * 0.705);
+    margin-top: -3rem;
+  }
+
+  .footer-bike {
+    position: absolute;
+    width: 100vw;
+  }
+}
