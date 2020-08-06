@@ -90,10 +90,18 @@
 
     .contact {
       padding-bottom: 1.8rem;
+
+      @media (max-width: 480px) {
+        padding-bottom: 1rem;
+      }
     }
 
     .links {
       padding-bottom: 1.4rem;
+
+      @media (max-width: 480px) {
+        padding-bottom: .5rem;
+      }
     }
 }
 
