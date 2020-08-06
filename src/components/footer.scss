@@ -17,7 +17,7 @@ footer {
     z-index: 2;
     width: 100vw;
     top: calc(100vw * 0.705);
-    margin-top: -3rem;
+    margin-top: -2rem;
 
     @media (max-width: 480px) {
       margin-bottom: 0;
@@ -26,6 +26,7 @@ footer {
       span {
         display: block;
         padding-bottom: .2em;
+        font-size: 0.65rem;
 
         &.separator {
           display: none;

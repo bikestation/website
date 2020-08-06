@@ -59,7 +59,7 @@ const Header = ({ siteTitle }) => (
         </li>
       </ul>
       <p className="contact">
-        +36 30 347 7766
+      <a href="tel:+36 30 347 7766">+36 30 347 7766</a>
       </p>
   </header>
 )

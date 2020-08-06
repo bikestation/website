@@ -8,9 +8,9 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="The Bike Station" />
-    <h2 className="services">Szolgáltatások</h2>
-    <p className="servicestext">The Bike Station - kerékpár szervíz a 13. kerületben! Megbízható és rugalmas munkavégzés, korrekt áron.</p>
-    <p className="servicestext">
+    <h2 className="welcome">Üdv!</h2>
+    <p className="welcometext">The Bike Station - kerékpár szervíz a 13. kerületben! Megbízható és rugalmas munkavégzés, korrekt áron.</p>
+    <p className="welcometext">
       <ul className="list">
         <li>Biciklidet munkaidőn belül bármikor hozhatod, de érdemes rákérdezni, hogy mikor kisebb a terheltség.</li>
         <li>Kérlek a megadott időpontban gyere az elkészült kerékpárért, mert a kis hely miatt nem tudom tárolni napokig.</li>
@@ -27,7 +27,7 @@ const IndexPage = () => (
       <table className="tabletext">
         <tbody>
           <tr>
-            <td>NAGY SZERVÍZ (mozgó alkatrészek zsírzása, kerekek centírozása, váltók és fékek beállítása, lánc tisztítása olajozása, összes csavar áthúzása átvizsgálása)</td>
+            <td>NAGY SZERVÍZ (mozgó alkatrészek zsírozása, kerekek centrírozása, váltók és fékek beállítása, lánc tisztítása és olajozása, összes csavar áthúzása és átvizsgálása)</td>
             <td className="price"><span class="nowrap">18.000 Ft</span></td>
           </tr>
           <tr>
@@ -35,11 +35,11 @@ const IndexPage = () => (
             <td className="price"><span class="nowrap">11.900 Ft</span></td>
           </tr>
           <tr>
-            <td>KIS SZERVIZ (első és hátsó agy állítása, kerekek centírozása, váltók és fékek beállítása, lánc tisztítása, olajozása, csavarok átvizsgálása)</td>
+            <td>KIS SZERVÍZ (első- és hátsó agy állítása, kerekek centrírozása, váltók és fékek beállítása, lánc tisztítása, olajozása, csavarok átvizsgálása)</td>
             <td className="price">11.000 - <span class="nowrap">13.500 Ft</span></td>
           </tr>
           <tr>
-            <td>ÁTVIZSGÁLÁS (váltók és fékek beállítása, csavarok átvizsgálása, lánc tisztítása, olajozása)</td>
+            <td>ÁTVIZSGÁLÁS (váltók és fékek beállítása, csavarok átvizsgálása, lánc tisztítása és olajozása)</td>
             <td className="price"><span class="nowrap">6500 Ft</span></td>
           </tr>
           <tr>
@@ -47,7 +47,7 @@ const IndexPage = () => (
             <td className="price"><span class="nowrap">4000 Ft</span></td>
           </tr>
           <tr>
-            <td>ÜZEMBE HELYEZÉS „0 km-es beállítás” (csak a nem nálunk vásárolt kerékpárokra vonatkozik</td>
+            <td>ÜZEMBE HELYEZÉS „0 km-es beállítás” (csak a nem nálunk vásárolt kerékpárokra vonatkozik)</td>
             <td className="price"><span class="nowrap">5500 Ft</span></td>
           </tr>
           <tr>
@@ -61,11 +61,11 @@ const IndexPage = () => (
       <table className="tabletext">
         <tbody>
           <tr>
-            <td>Belső vagy külső csere (kiszerelt kerék)</td>
+            <td>Belső- vagy külső csere (kiszerelt kerék)</td>
             <td className="price"><span class="nowrap">1000 Ft</span></td>
           </tr>
           <tr>
-            <td>Belső vagy külső csere (kerékpárban)</td>
+            <td>Belső- vagy külső csere (kerékpárban)</td>
             <td className="price"><span class="nowrap">1200 Ft</span></td>
           </tr>
           <tr>
@@ -81,7 +81,7 @@ const IndexPage = () => (
             <td className="price"><span class="nowrap">800 Ft</span></td>
           </tr>
           <tr>
-            <td>Küllőpótlás+centírozás</td>
+            <td>Küllőpótlás + centrírozás</td>
             <td className="price"><span class="nowrap">3000 Ft</span></td>
           </tr>
         </tbody>
@@ -91,7 +91,7 @@ const IndexPage = () => (
       <table className="tabletext">
         <tbody>
           <tr>
-            <td>Fékállítás (kerekenként)</td>
+            <td>Fék állítás (kerekenként)</td>
             <td className="price"><span class="nowrap">1500 Ft</span></td>
           </tr>
           <tr>
@@ -125,11 +125,11 @@ const IndexPage = () => (
       <table className="tabletext">
         <tbody>
           <tr>
-            <td>Váltóállítás (váltónként)</td>
+            <td>Váltó beállítás (váltónként)</td>
             <td className="price"><span class="nowrap">1500 Ft</span></td>
           </tr>
           <tr>
-            <td>Váltócsere és beállítás (váltónként)</td>
+            <td>Váltó csere és beállítás (váltónként)</td>
             <td className="price">2500 - <span class="nowrap">3000 Ft</span></td>
           </tr>
           <tr>
@@ -151,7 +151,7 @@ const IndexPage = () => (
             <td className="price"><span class="nowrap">3000 Ft</span></td>
           </tr>
           <tr>
-            <td>Monoblock csere, komplett, váltóállítással</td>
+            <td>Monoblock csere, komplett váltóállítással</td>
             <td className="price"><span class="nowrap">4000 Ft</span></td>
           </tr>
           <tr>
@@ -173,7 +173,7 @@ const IndexPage = () => (
             <td className="price"><span class="nowrap">2500 Ft</span></td>
           </tr>
           <tr>
-            <td>Láncápolás (tisztítás, olajozás)</td>
+            <td>Lánc ápolás (tisztítás és olajozás)</td>
             <td className="price"><span class="nowrap">2000 Ft</span></td>
           </tr>
           <tr>
@@ -195,7 +195,7 @@ const IndexPage = () => (
             <td className="price"><span class="nowrap">4500 Ft</span></td>
           </tr>
           <tr>
-            <td>Villa beépítés, fékállítással</td>
+            <td>Villa beépítés, fék beállítással</td>
             <td className="price"><span class="nowrap">6000 Ft</span></td>
           </tr>
         </tbody>
@@ -259,7 +259,7 @@ const IndexPage = () => (
             <td className="price"><span class="nowrap">2000 Ft</span></td>
           </tr>
           <tr>
-            <td>Km óra felszerelés, beállítás</td>
+            <td>Km óra felszerelés és beállítás</td>
             <td className="price"><span class="nowrap">1000 Ft</span></td>
           </tr>
           <tr>
