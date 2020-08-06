@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="The Bike Station" />
     <h2 className="welcome">Üdv!</h2>
-    <p className="welcometext">The Bike Station - kerékpár szervíz a 13. kerületben! Megbízható és rugalmas munkavégzés, korrekt áron.</p>
+    <p className="welcometext">The Bike Station - kerékpár szerviz a 13. kerületben! Megbízható és rugalmas munkavégzés, korrekt áron.</p>
     <ul className="welcometext list">
       <li>Biciklidet munkaidőn belül bármikor hozhatod, de érdemes rákérdezni, hogy mikor kisebb a terheltség.</li>
       <li>Kérlek a megadott időpontban gyere az elkészült kerékpárért, mert a kis hely miatt nem tudom tárolni napokig.</li>
@@ -22,11 +22,11 @@ const IndexPage = () => (
     <h2 className="pricelist">Árlista</h2>
     <p className="pricelisttext">Érvényes 2020. augusztus 1-től visszavonásig.</p>
 
-    <h3>Általános szervíz</h3>
+    <h3>Általános szerviz</h3>
       <table className="tabletext">
         <tbody>
           <tr>
-            <td>NAGY SZERVÍZ (mozgó alkatrészek zsírozása, kerekek centrírozása, váltók és fékek beállítása, lánc tisztítása és olajozása, összes csavar áthúzása és átvizsgálása)</td>
+            <td>NAGY SZERVIZ (mozgó alkatrészek zsírozása, kerekek centrírozása, váltók és fékek beállítása, lánc tisztítása és olajozása, összes csavar áthúzása és átvizsgálása)</td>
             <td className="price"><span className="nowrap">18.000 Ft</span></td>
           </tr>
           <tr>
@@ -34,7 +34,7 @@ const IndexPage = () => (
             <td className="price"><span className="nowrap">11.900 Ft</span></td>
           </tr>
           <tr>
-            <td>KIS SZERVÍZ (első- és hátsó agy állítása, kerekek centrírozása, váltók és fékek beállítása, lánc tisztítása, olajozása, csavarok átvizsgálása)</td>
+            <td>KIS SZERVIZ (első- és hátsó agy állítása, kerekek centrírozása, váltók és fékek beállítása, lánc tisztítása, olajozása, csavarok átvizsgálása)</td>
             <td className="price">11.000 - <span className="nowrap">13.500 Ft</span></td>
           </tr>
           <tr>
