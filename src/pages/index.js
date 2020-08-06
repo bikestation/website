@@ -12,7 +12,7 @@ const IndexPage = () => (
     <p className="welcometext">The Bike Station - kerékpár szerviz a 13. kerületben! Megbízható és rugalmas munkavégzés, korrekt áron.</p>
     <ul className="welcometext list">
       <li>Biciklidet munkaidőn belül bármikor hozhatod, de érdemes rákérdezni, hogy mikor kisebb a terheltség.</li>
-      <li>Kérlek a megadott időpontban gyere az elkészült kerékpárért, mert a kis hely miatt nem tudom tárolni napokig.</li>
+      <li>Kérlek, a megadott időpontban gyere az elkészült kerékpárért, mert a kis hely miatt nincs lehetőség a tárolására.</li>
       <li>Az árlistában a bruttó munkadíjakat látod feltüntetve, a beépítendő alkatrészek ára külön értendő.</li>
       <li>Átnézés után teljeskörű szóbeli tájékoztatást kapsz a javasolt munkáról, annak várható áráról.</li>
       <li>Kártyával és készpénzzel is tudsz fizetni.</li>
