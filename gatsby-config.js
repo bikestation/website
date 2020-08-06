@@ -36,7 +36,8 @@ module.exports = {
         fonts: [
           {
             family: `Roboto`,
-            variants: [`100`,`400`,`500`],
+            variants: [`300`,`400`,`500`],
+            subsets: [`latin`],
           }
         ],
       },
@@ -48,7 +49,5 @@ module.exports = {
         trackingId: "UA-58489830-1",
       },
     }, */
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
   ],
 }
