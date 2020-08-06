@@ -1,3 +1,8 @@
+.content {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 1.0875rem 1.45rem;
+}
 h2 {
     padding-top: 2rem;
     font-size: 2rem;
@@ -30,9 +35,12 @@ table.tabletext {
   }
 
   tr td:first-child {
-    width: 80%;
+    width: 78%;
   }
 }
 td.price {
     font-weight: bold;
+}
+span.nowrap {
+    white-space: nowrap;
 }
