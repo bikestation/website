@@ -37,6 +37,7 @@ module.exports = {
           {
             family: `Roboto`,
             variants: [`300`,`500`,`700`],
+            subsets: [`latin`],
           }
         ],
       },
@@ -48,7 +49,5 @@ module.exports = {
         trackingId: "UA-58489830-1",
       },
     }, */
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
   ],
 }
