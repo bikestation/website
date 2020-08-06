@@ -6,7 +6,7 @@
     margin-bottom: 4rem;
 
     display: grid;
-    grid-template-columns: auto 140px auto;
+    grid-template-columns: 1fr 140px 1fr;
     grid-template-rows: auto;
     grid-template-areas:
       "links logo contact";
@@ -76,7 +76,33 @@
     .contact {
       grid-area: contact;
       align-self: end;
-      color: #898f9c;
+
+      svg {
+        height: 1.5rem;
+        width: 1.5rem;
+        background-color: #898f9c;
+        padding: 3px;
+        border-radius: 50%;
+        vertical-align: middle;
+        margin-right: .5rem;
+        margin-top: -2px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #898f9c;
+
+        &:hover {
+          color: lighten($color: #898f9c, $amount: 25%);
+          text-decoration: underline;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .phone-number {
+          display: none;
+        }
+      }
     }
 
     .links,
